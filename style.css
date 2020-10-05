@@ -1,0 +1,16 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+.top-section img {
+    width: 20000px;
+    width: auto;
+    
+}
+
+.selfie {
+    width: 400px;
+    border-radius: 30%;
+    display: block;
+    margin: 0 auto;
+}
