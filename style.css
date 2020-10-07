@@ -5,6 +5,7 @@
   body, html {
       height: 100%;
       font-family: 'Roboto', sans-serif;
+      margin: 0px;
   }
 
   h2 {
@@ -17,7 +18,6 @@
 .hero-image {
     width: 100%;
     height: auto;
-    min-height: 500px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url("./images/seashells.jpg");
     background-size: cover;
     background-position: center;
@@ -25,17 +25,47 @@
     position: relative;
 }
 
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 40px 30px 0 30px;
+
+}
+
+.selfie {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: -20px;
+    
+} 
+/* maybe take away? Make the icon fit the cirkle*/
+ .icon {
+    border: 3px solid white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-social-media {
+    display: flex;
+    
+}
+
+
 .hero-text {
-    text-align: center;
-    position: relative;
+    align-self: flex-start;
 
 }
 .selfie {
-    width: 300px;
+    width: 150px;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-}
+    
+} 
 
 .container-grey {
     background-color:#F4F4F4;
@@ -46,7 +76,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px 30px 0px 30px;
     
+}
+
+@media (min-width: 800px) {
+    .hero-content {
+        padding: 100px 100px 0 100px;
+    }
+
+    .selfie {
+        width: 250px;
+        height: 200px;
+    }
 }
 
 /* TODO
