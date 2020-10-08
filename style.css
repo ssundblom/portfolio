@@ -51,6 +51,10 @@ h2 {
     justify-content: center;
 }
 
+.icon-red {
+    border: 3px solid #FA382F;
+}
+
 .hero-social-media {
     display: flex;
 }
@@ -147,6 +151,21 @@ h2 {
 
 }
 
+.more-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 522px;
+   
+}
+
+footer {
+    background-color: #072BCE;
+    color: white;
+}
+
+
 @media (min-width: 800px) {
     .hero-content {
         padding: 100px 100px 0 100px;
@@ -161,6 +180,7 @@ h2 {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
+        
     }
 
    
@@ -181,5 +201,7 @@ px hoto in the right corner, maybe a little smaler? The other pic?
 x fix the h2 
 change colors on the links? Darker background? 
 Add the red line at the top, or maybe a seashell or something more personal?
+
+clean up the readme s on all projects
 
 */
