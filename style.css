@@ -4,7 +4,7 @@
 
 body, html {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: auto; 
 }
 
@@ -13,6 +13,7 @@ h2 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     padding: 5px;
+    
 }
 
 .hero-image {
@@ -33,10 +34,12 @@ h2 {
     padding: 40px 30px 0 30px;
 }
 
+
 .selfie {
     width: 150px;
     border-radius: 50%;
     margin-bottom: -20px;
+    border: 3px solid white;
 }
 
 /* maybe take away? Make the icon fit the cirkle*/
@@ -60,9 +63,28 @@ h2 {
 }
 
 .hero-text {
+    color: white;
     align-self: flex-start;
+    max-width: 300px;
 }
 
+.hero-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-block-start: 0;
+}
+
+.hero-text p {
+    font-weight: bolder;
+    font-size: 13px ;
+}
+
+.portfolio {
+    font-weight: normal;
+    margin-right: 20px;
+
+}
 .selfie {
     width: 150px;
     border-radius: 50%;
@@ -90,7 +112,7 @@ h2 {
 }
 
 .project-card {
-    margin-bottom: 50px ;
+    margin: 0 10px 50px 10px;
     max-width: 90%;
 }
 
@@ -101,6 +123,7 @@ h2 {
 
 .project-card p {
     max-width: 522px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .project-image-container img {
@@ -129,7 +152,6 @@ h2 {
 
 .tags {
     display: flex;
-    
 }
 
 .tag {
@@ -139,16 +161,24 @@ h2 {
     margin-right:30px;
     font-size: 9px;
 }
-
 .tag p {
     margin: auto;
 }
-
 .red-link {
     color: #FA382F;
     font-weight: bolder;
     text-decoration: underline;
+}
 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.skill-title {
+    color: #FA382F;
+    font-weight: bold;
 }
 
 .more-info {
@@ -157,12 +187,26 @@ h2 {
     justify-content: space-evenly;
     width: 100%;
     max-width: 522px;
-   
+    margin: 60px;
 }
 
 footer {
     background-color: #072BCE;
     color: white;
+    text-align: center;
+    padding: 40px;
+}
+footer h5 {
+    font-weight: bold;
+    font-size: 21px;
+}
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 13px;
+}
+footer .name {
+    font-weight: bold;
 }
 
 
@@ -180,14 +224,21 @@ footer {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
-        
     }
 
-   
+    .hero-text {
+        max-width: 500px;
+    }
+
+    .hero-text h3 {
+        font-size: 83px;
+    }
+
+    .hero-text p {
+        font-size: 28px ;
+    }
 
 }
-
-
 /* TODO
 
 x padding in content container 
