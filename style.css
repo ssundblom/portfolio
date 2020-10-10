@@ -34,15 +34,12 @@ h2 {
     padding: 40px 30px 0 30px;
 }
 
-
 .selfie {
     width: 150px;
     border-radius: 50%;
     margin-bottom: -20px;
     border: 3px solid white;
 }
-
-/* maybe take away? Make the icon fit the cirkle*/
 
 .icon {
     border: 3px solid white;
@@ -85,10 +82,6 @@ h2 {
     margin-right: 20px;
 
 }
-.selfie {
-    width: 150px;
-    border-radius: 50%;
-}
 
 .container-grey {
     background-color: #F4F4F4;
@@ -113,7 +106,6 @@ h2 {
 
 .project-card {
     margin: 0 10px 50px 10px;
-    max-width: 90%;
 }
 
 .project-card a {
@@ -158,22 +150,34 @@ h2 {
     background-color: #FDDFE7;
     color: #2B2E34;
     padding: 5px;
-    margin-right:30px;
+    margin-right:10px;
     font-size: 9px;
 }
+
 .tag p {
     margin: auto;
 }
+
 .red-link {
     color: #FA382F;
     font-weight: bolder;
     text-decoration: underline;
 }
 
-.skills {
+.skills-container {
     display: flex;
     flex-wrap: wrap;
-    
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 50px 20px;
+}
+
+.skills p {
+    margin: 6px;
 }
 
 .skill-title {
