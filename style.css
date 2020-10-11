@@ -13,7 +13,6 @@ h2 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     padding: 5px;
-    
 }
 
 .hero-image {
@@ -92,7 +91,6 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 40px 30px 0px 30px;
-    
 }
 
 .project-card-container {
@@ -120,7 +118,6 @@ h2 {
 .project-image-container img {
     max-width: 100%;
     opacity: 0.68;
-    
 }
 
 .project-image-container {
@@ -212,11 +209,12 @@ footer .name {
     font-weight: bold;
 }
 
-
 @media (min-width: 800px) {
+    
     .hero-content {
         padding: 100px 100px 0 100px;
     }
+
     .selfie {
         width: 250px;
         height: 250px;
@@ -242,20 +240,3 @@ footer .name {
     }
 
 }
-/* TODO
-
-x padding in content container 
-x check out how to get the an image to a link
-link the best projects
-add the links below
-and add the footer
-fix the hero content:
-x align them 'right'
-px hoto in the right corner, maybe a little smaler? The other pic? 
-x fix the h2 
-change colors on the links? Darker background? 
-Add the red line at the top, or maybe a seashell or something more personal?
-
-clean up the readme s on all projects
-
-*/
