@@ -120,7 +120,14 @@ h2 {
     opacity: 0.68;
 }
 
+.project-image-container img:hover {
+    max-width: 100%;
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
 .project-image-container {
+    max-width: 522px;
     position: relative;
     text-align: center;
     color: white;
