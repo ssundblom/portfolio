@@ -48,6 +48,7 @@ h2 {
     padding: 10px;
     display: flex;
     justify-content: center;
+    margin-right: 20px;
 }
 
 .icon-red {
@@ -56,6 +57,7 @@ h2 {
 
 .hero-social-media {
     display: flex;
+    justify-content: space-between;
 }
 
 .hero-text {
