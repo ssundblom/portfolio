@@ -85,6 +85,8 @@ h2 {
 
 .container-grey {
     background-color: #F4F4F4;
+    margin-bottom: 50px;
+
 }
 
 .content-container {
@@ -93,6 +95,7 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 40px 30px 0px 30px;
+    margin-bottom: 50px;
 }
 
 .project-card-container {
