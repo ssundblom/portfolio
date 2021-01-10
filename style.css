@@ -144,6 +144,11 @@ h2 {
     transform: translate(-50%, -50%)
 }
 
+.other-projects a {
+  text-decoration: none;
+  color: black;
+}
+
 .sub-title {
     color: #FA382F;
     font-weight: bolder;
