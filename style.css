@@ -9,7 +9,7 @@ body, html {
 }
 
 h2 {
-    background-color: #FA382F;
+    background-color: #f5c25b;
     color: white;
     font-family: 'Montserrat', sans-serif;
     padding: 5px;
@@ -52,7 +52,7 @@ h2 {
 }
 
 .icon-red {
-    border: 3px solid #FA382F;
+    border: 3px solid #f5c25b;
 }
 
 .hero-social-media {
@@ -84,7 +84,7 @@ h2 {
 }
 
 .container-grey {
-    background-color: #F4F4F4;
+    background-color: #fcf6eb;
 
 }
 
@@ -150,7 +150,7 @@ h2 {
 }
 
 .sub-title {
-    color: #FA382F;
+    color: #f5c25b;
     font-weight: bolder;
 }
 
@@ -159,7 +159,7 @@ h2 {
 }
 
 .tag {
-    background-color: #FDDFE7;
+    background-color: #fcf6eb;
     color: #2B2E34;
     padding: 5px;
     margin-right:10px;
@@ -171,7 +171,7 @@ h2 {
 }
 
 .red-link {
-    color: #FA382F;
+    color: #f5c25b;
     font-weight: bolder;
     text-decoration: underline;
 }
@@ -193,7 +193,7 @@ h2 {
 }
 
 .skill-title {
-    color: #FA382F;
+    color: #f5c25b;
     font-weight: bold;
 }
 
@@ -207,7 +207,7 @@ h2 {
 }
 
 footer {
-    background-color: #072BCE;
+    background-color: #f1c979;
     color: white;
     text-align: center;
     padding: 40px;
